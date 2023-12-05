@@ -633,7 +633,7 @@ display: block;
 
 /*Media queries*/
 
-@media(max-width:870px){
+@media(max-width:991px){
 
     .titulo{
         font-size: 2.5rem;
@@ -657,7 +657,7 @@ display: block;
 }
 
 /*Para celulares*/
-@media(max-width:870px){
+@media(max-width:991px){
     .titulo{
         font-size: 2rem;
     }
