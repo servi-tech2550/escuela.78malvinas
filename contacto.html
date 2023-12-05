@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="imagenes/logo sin fondo.png" alt="Logo de la escuela">
+      </a>
+    </div>
+  <nav>
+    <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    
+    </ul>
+  </nav>
+  <a onclick="openNav()" href="#" class="btn-menu"><button>Menu</button></a>
+  <div class="overlay" id="mobile-menu">
+    <a onclick="closeNav()" href="" class="close">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+  </div>
+</header>
+<section class="formulario">
+  <form action="https://formsubmit.co/escuela.78malvinasargentinas@gmail.com" method="POST" autocomplete="off">
+    <h2>Contacto</h2>
+    <br>
+    <!-- <div class="form-txt">
+      <a href="#">Politica de privacidad</a>
+      <a href="#">Terminos y condiciones</a>
+    </div> -->
+    <div class="input-group">
+    
+      <input type="text" name="nombre" required placeholder="Nombre" minlength="3" maxlength="30">
+    
+      <input type="tel" name="telefono" required placeholder="Telefono" minlength="5" maxlength="15">
+    
+      <input type="email" name="correo" required placeholder="Correo" minlength="10" maxlength="30">
+    
+      <textarea name="mensaje"  cols="30" rows="5" required placeholder="Su mensaje" minlength="10" maxlength="100"></textarea>
+    
+      <input class="btn-enviar" type="submit" value="Enviar" >
+
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+
+      <input type="hidden" name="_captcha" value="false">
+
+
+    </div>
+    </form>
+</section>
+
+
+<footer class="pie-pagina">
+  <div class="grupo-1">
+    <div class="box">
+      <figure>
+        <a href="index.html">
+          <img src="imagenes/logo sin fondo.png" alt="Logo de Escuela78">
+        </a>
+      </figure>
+    </div>
+    <div class="box">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos una Institución Educativa que brida las herramientas y estrategias congnitivas y sociales
+        para lograr ciudadanos responsables y comprometidos, garantizando una educación inclusiva y el
+        derecho a una educación para todos.</p>
+      
+    </div>
+    <div class="box">
+      <h2>Nuestras Redes</h2>
+      <div class="red-social">
+        <a href="https://www.facebook.com/escuela.malvinasargentinas.3?locale=es_LA" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/escuelanro78malvinas/" class="fa fa-instagram"></a>
+        <a href="https://www.youtube.com/@Escuela78MalvinasArgentinas" class="fa fa-youtube"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="grupo-2">
+    <small>&copy; 2023 <b>Godoy Oscar</b>- Todos los Derechos Reservados</small>
+  </div>
+</footer>
+<script src="style.js"></script>
+   <script src="https://kit.fontawesome.com/a496090106.js" crossorigin="anonymous"></script>
+</body>
+</html>

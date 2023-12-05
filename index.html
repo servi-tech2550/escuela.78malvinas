@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Escuela 78</title>
+  <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="imagenes/logo sin fondo.png" alt="Logo de la escuela">
+      </a>
+      
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <a onclick="openNav()" href="#" class="btn-menu"><button>Menu</button></a>
+    <div class="overlay" id="mobile-menu">
+      <a onclick="closeNav()" href="" class="close">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </header>
+  <div class="slider_completo">
+    <div class="miSlider">
+        <img src="slider/1 (1).PNG" class="img-normalizada" alt="">
+
+    </div>
+    <div class="miSlider">
+        <img src="slider/1 (2).PNG" class="img-normalizada" alt="">
+
+    </div>
+    <div class="miSlider">
+        <img src="slider/1 (3).PNG" class="img-normalizada" alt="">
+
+    </div>
+    <div class="direcciones">
+        <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;
+
+        </a>
+        <a href="#" class="adelante"onclick="avanzaSlide(1)">&#10095;
+
+        </a>
+
+    </div>
+    <div class="barras">
+        <span class="barra active" onclick="posicionSlide(1)"></span>
+        <span class="barra" onclick="posicionSlide(2)"></span>
+        <span class="barra" onclick="posicionSlide(3)"></span>
+
+    </div>
+</div>
+
+  <section class="about">
+    <h2 class="subtitle">Disponemos de dos Niveles Educativos</h2>
+    <p class="about_paragraph">Una educación de calidad para la formacion de la persona, en todos los campos del
+      conocimiento
+      basada en una preparación humana, científica, artística e inclusiva.
+    </p>
+    <div class="about_main">
+      <article class="about_icons">
+        <img src="imagenes/Nivel Inicial.PNG" class="about_icon">
+        <h3 class="about_title">Nivel Inicial</h3>
+        <p class="about_paragraph">Es la unidad pedagógica conocida como jardín maternal y jardín de infantes.
+          Desde Salita de 4 hasta su egreso a la escolaridad obligatoria. 
+        </p>
+      </article>
+
+      <article class="about_icons">
+        <img src="imagenes/Nivel Primario.PNG" class="about_icon">
+        <h3 class="about_title">Nivel Primario</h3>
+        <p class="about_paragraph">Es otro de los niveles del sistema educativo, al que van los niños y niñas a partir de los 6 años de edad.
+          Cuenta con dos ciclos  Primer Ciclo 1°, 2° y 3° rado y Segundo Ciclo 4°, 5° y 6° grado.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="knowledege">
+    <div class="knowledege_completo">
+      <div class="knowledege_texts">
+        <h2 class="subtitle">Nuestra Escuela debe:</h2>
+        <ul class="knowledege_paragraph">
+          <li>Garantizar el acceso a un conjunto de saberes comunes.</li>
+          <li>Ofrecer condiciones para el desarrollo integral de los niños y niñas.</li>
+          <li>Dar oportunidades equitativas en el aprendizaje, especialmente en Lengua y Comunicación, Ciencias Sociales, Matemática, Ciencias Naturales, Lenguas Extranjeras, etc.</li>
+          <li>Generar condiciones para el uso de las nuevas tecnologías.</li>
+          <li>Promover el desarrollo de una actitud de esfuerzo, trabajo y responsabilidad.</li>
+          <li>Promover la curiosidad y el interés por aprender.</li>
+          <li>Brindar conocimientos y estrategias para seguir los estudios en la secundaria</li>
+        </ul>
+        
+      </div>
+      <figure class="knowledege_picture">
+        <img src="imagenes/aprendemos ejemplo.jpg" class="knowledege_img">
+      </figure>
+
+    </div>
+  </section>
+  <div class="roles">
+    <h2>Proyectos Institucionales</h2>
+    <div class="roles_acordeon">
+      <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+      <label for="btn-acordeon1">
+        Articulación
+      </label>
+      <div class="contenido_acordeon1">
+        <ul>
+          <li>- Articulación Nivel Inicial - Primer grado</li>
+          <li>- Entre primer ciclo y segundo ciclo</li>
+          <li>- Entre segundo ciclo y talleres</li>
+        </ul>
+        <br>
+        <p>
+          Entendemos el conocimiento como la construcción entre la interacción y el diálogo entre docentes y alumnos.
+          Esta forma de entender el conocimiento, implica entender que el mismo tiene múltiples lecturas al que cada
+          campo del saber aporta perspectivas diversas.
+          Esto requiere necesariamente un enfoque didáctico integrador que haga explícito los acuerdos que propicien las
+          relaciones entre los saberes específicos como la articulación significativa entre áreas.
+        </p>
+
+
+
+      </div>
+    </div>
+    <div class="roles_acordeon">
+      <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+      <label for="btn-acordeon2">
+        Proyecto Vida en la Naturaleza
+      </label>
+      <div class="contenido_acordeon1">
+        <p>
+          Este proyecto se implementa en el año 2002, desde el área de Educación Física Se realiza una convivencia anual
+          desde Nivel Inicial, sala de cinco años, hasta quinto grado. El proyecto culmina con un campamento educativo
+          de tres dias en el que participan docentes y alumnos de sexto grado.
+          <br>
+          Los objetos de este proyecto son:
+          <br>
+          - Valorar el medio ambiente.
+          <br>
+          - Promover la aceptacion de si mismo y del otro
+          - Incentivar el trabajo cooperativo.
+          <br>
+          - Promover las relaciones humanas.
+          <br>
+          - Reafirmar la autonomia responsable
+        </p>
+        <div class="galeria_proye">
+          <a href="#image1">
+            <img src="vida en la naturaleza/imagen1.jpg" alt="">
+        </a>
+        <a href="#image2">
+            <img src="vida en la naturaleza/imagen2.jpg"  alt="">
+        </a>
+        <a href="#image3">
+            <img src="vida en la naturaleza/imagen3.jpg"  alt="">
+        </a>
+        <a href="#image4">
+            <img src="vida en la naturaleza/imagen4.jpg" alt="">
+        </a>
+        <a href="#image5">
+            <img src="vida en la naturaleza/imagen5.jpg"  alt="">
+        </a>
+        <a href="#image6">
+            <img src="vida en la naturaleza/imagen6.jpg"  alt="">
+        </a>
+        </div>
+       
+      <article class="ligth-box1" id="image1">
+          <a href="#image6" class="next1"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="vida en la naturaleza/imagen1.jpg" alt="">
+          <a href="#image2"class="next1"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar1">X</a>
+      
+      </article>
+      
+      <article class="ligth-box1" id="image2">
+          <a href="#image1" class="next1"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="vida en la naturaleza/imagen2.jpg" alt="">
+          <a href="#image3"class="next1"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar1">X</a>
+      
+      </article>
+      
+      <article class="ligth-box1" id="image3">
+          <a href="#image2" class="next1"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="vida en la naturaleza/imagen3.jpg" alt="">
+          <a href="#image4"class="next1"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar1">X</a>
+      
+      </article>
+      
+      <article class="ligth-box1" id="image4">
+          <a href="#image3" class="next1"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="vida en la naturaleza/imagen4.jpg" alt="">
+          <a href="#image5"class="next1"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar1">X</a>
+      
+      </article>
+      
+      <article class="ligth-box1" id="image5">
+          <a href="#image4" class="next1"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="vida en la naturaleza/imagen5.jpg" alt="">
+          <a href="#image6"class="next1"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar1">X</a>
+      
+      </article>
+      
+      <article class="ligth-box1" id="image6">
+          <a href="#image5" class="next1"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="vida en la naturaleza/imagen6.jpg" alt="">
+          <a href="#image1"class="next1"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar1">X</a>
+      
+      </article>
+
+
+
+      </div>
+    </div>
+
+    <div class="roles_acordeon">
+      <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+      <label for="btn-acordeon3">
+        Feria de Ciencia Escolar
+
+      </label>
+      <div class="contenido_acordeon1">
+        <p>
+          La Feria escolar de Ciencias es una experiencia que se lleva a cabo desde el año 2004.
+          Todos los docentes elaboran un Proyecto de investigación que se presenta a la comunidad educativa.
+          <br>
+          Los objetivos de la Feria de Ciencia escolar es despertar el interés por la investigación, la comunicación
+          haciendo ciencia escolar.
+          <br>
+          En diciembre de 2014 la escuela fue convocada como "Expositora de Experiencias al Encuentro Nacional de
+          Ciencias Naturales, enmarcada en el Proyecto Cs Naturales para todos" en la Ciudad Autónoma de Bs As.
+          <br>
+          En el año 2016 por primera vez la escuela presenta sus proyectos en Feria de Ciencias Departamental, llegando
+          con uno de sus proyectos a Feria de Ciencias Nacional, en la ciudad de Córdoba.
+          <br>
+        </p>
+          <div class="feria_galery">
+            <a href="#imagen1">
+              <img src="fotos/feria1.jpg" alt="">
+          </a>
+          <a href="#imagen2">
+              <img src="fotos/feria2.jpg" alt="">
+          </a>
+          <a href="#imagen3">
+              <img src="fotos/feria3.jpg" alt="">
+          </a>
+          <a href="#imagen4">
+              <img src="fotos/feria4.jpg" alt="">
+          </a>
+          <a href="#imagen5">
+              <img src="fotos/feria5.jpg" alt="">
+          </a>
+          <a href="#imagen6">
+              <img src="fotos/feria6.jpg" alt="">
+          </a>
+        
+        </div>
+        <article class="ligth-box3" id="imagen1">
+          <a href="#imagen6" class="next3"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/feria1.jpg" alt="">
+          <a href="#imagen2"class="next3"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar3">X</a>
+      
+      </article>
+      
+      <article class="ligth-box3" id="imagen2">
+          <a href="#imagen1" class="next3"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/feria2.jpg" alt="">
+          <a href="#imagen3"class="next3"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar3">X</a>
+      
+      </article>
+      
+      <article class="ligth-box3" id="imagen3">
+          <a href="#imagen2" class="next3"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/feria3.jpg" alt="">
+          <a href="#imagen4"class="next3"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar3">X</a>
+      
+      </article>
+      
+      <article class="ligth-box3" id="imagen4">
+          <a href="#imagen3" class="next3"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/feria4.jpg" alt="">
+          <a href="#imagen5"class="next3"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar3">X</a>
+      
+      </article>
+      
+      <article class="ligth-box3" id="imagen5">
+          <a href="#imagen4" class="next3"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/feria5.jpg" alt="">
+          <a href="#imagen6"class="next3"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar3">X</a>
+      
+      </article>
+      
+      <article class="ligth-box3" id="imagen6">
+          <a href="#imagen5" class="next3"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/feria6.jpg" alt="">
+          <a href="#imagen1"class="next3"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar3">X</a>
+      
+      </article>
+
+        
+        
+      </div>
+    </div>
+
+    <div class="roles_acordeon">
+      <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+      <label for="btn-acordeon4">
+        "Educación sexual como derecho"
+      </label>
+      <div class="contenido_acordeon1">
+        <p>
+          La ESI se inició en el año 2010 de forma ocasional, segun emergentes. En el año 2013 se busca sistematizar la
+          enseñanza e institucionalizar un Proyecto sostenido a partir de las experiencias significativas.
+<br>
+          La segunda ventana de entrada fue trabajar con las familias y niños desde Nivel Inicial hasta sexto grado
+<br>
+          Dentro del ESI podemos citar otros proyectos que enmarcan el macro proyecto como: Educación por la Paz
+          Convivencia Escolar Mediación, Vida en la naturaleza.
+          <br>
+        </p>
+          <div class="esi_content">
+
+            <a href="#imag1">
+              <img src="fotos/esi1.jpg"alt="">
+          </a>
+          <a href="#imag2">
+              <img src="fotos/esi2.jpg" alt="">
+          </a>
+          <a href="#imag3">
+              <img src="fotos/esi3.jpg" alt="">
+          </a>
+          <a href="#imag4">
+              <img src="fotos/esi4.jpg" alt="">
+          </a>
+          <a href="#imag5">
+              <img src="fotos/esi5.jpg" alt="">
+          </a>
+          <a href="#imag6">
+              <img src="fotos/esi6.jpg" alt="">
+          </a>
+          
+      
+
+          </div>
+        
+        <article class="ligth-box4" id="imag1">
+          <a href="#imag6" class="next4"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/esi1.jpg" alt="">
+          <a href="#imag2"class="next4"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar4">X</a>
+      
+      </article>
+      
+      <article class="ligth-box4" id="imag2">
+          <a href="#imag1" class="next4"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/esi2.jpg" alt="">
+          <a href="#imag3"class="next4"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar4">X</a>
+      
+      </article>
+      
+      <article class="ligth-box4" id="imag3">
+          <a href="#imag2" class="next4"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/esi3.jpg" alt="">
+          <a href="#imag4"class="next4"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar4">X</a>
+      
+      </article>
+      
+      <article class="ligth-box4" id="imag4">
+          <a href="#imag3" class="next4"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/esi4.jpg" alt="">
+          <a href="#imag5"class="next4"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar4">X</a>
+      
+      </article>
+      
+      <article class="ligth-box4" id="imag5">
+          <a href="#imag4" class="next4"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/esi5.jpg" alt="">
+          <a href="#imag6"class="next4"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar4">X</a>
+      
+      </article>
+      
+      <article class="ligth-box4" id="imag6">
+          <a href="#imag5" class="next4"><i class="fa-solid fa-arrow-left-long"></i></a>
+          <img src="fotos/esi6.jpg" alt="">
+          <a href="#imag1"class="next4"><i class="fa-solid fa-arrow-right-long"></i></a>
+          <a href="#"class="cerrar4">X</a>
+      
+      </article>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="mapa"><iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3421.775683929626!2d-59.78365002535386!3d-30.948828873802952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b358dc24da24fd%3A0xb774d1dd1c365d58!2sEscuela%20Malvinas%20Argentinas%20N78!5e0!3m2!1ses!2sar!4v1700579533439!5m2!1ses!2sar"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="index.html">
+            <img src="imagenes/logo sin fondo.png" alt="Logo de Escuela78">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una Institución Educativa que brida las herramientas y estrategias congnitivas y sociales
+          para lograr ciudadanos responsables y comprometidos, garantizando una educación inclusiva y el
+          derecho a una educación para todos.
+        </p>
+        
+
+      </div>
+      <div class="box">
+        <h2>Nuestras Redes</h2>
+        <div class="red-social">
+          <a href="https://www.facebook.com/escuela.malvinasargentinas.3?locale=es_LA" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/escuelanro78malvinas/" class="fa fa-instagram"></a>
+          <a href="https://www.youtube.com/@Escuela78MalvinasArgentinas" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grupo-2">
+      <small>&copy; 2023 <b>Godoy Oscar</b>- Todos los Derechos Reservados</small>
+    </div>
+  </footer>
+  <script src="style.js"></script>
+  <script src="https://kit.fontawesome.com/a496090106.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
